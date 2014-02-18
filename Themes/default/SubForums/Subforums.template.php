@@ -53,7 +53,7 @@ function template_main()
 
 			if($_SERVER['SERVER_NAME'] == $part['host'])
 				echo '
-						&nbsp;<img src="'. $settings['default_theme_url'] .'/Subforums/images/subforums_act.gif' .'" alt="**" />';
+						&nbsp;<img src="'. $settings['default_theme_url'] .'/SubForums/images/subforums_act.gif' .'" alt="**" />';
 
 			echo '
 						<br />'. (empty($part['name']) ? $mbname : $part['name']) .'
@@ -113,7 +113,7 @@ function template_main()
 
 		if($_SERVER['SERVER_NAME'] == $baseurl['host'])
 			echo '
-						<img src="'. $settings['default_theme_url'] .'/Subforums/images/subforums_act.gif' .'" alt="**" />';
+						<img src="'. $settings['default_theme_url'] .'/SubForums/images/subforums_act.gif' .'" alt="**" />';
 
 		echo '
 						<br />'. $mbname .'
